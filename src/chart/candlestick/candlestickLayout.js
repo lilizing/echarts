@@ -13,7 +13,7 @@ define(function (require) {
             var dimensions = seriesModel.dimensions;
             var chartLayout = seriesModel.get('layout');
 
-            var candleWidth = calculateCandleWidth(seriesModel, data);
+            var candleWidth = 1;//calculateCandleWidth(seriesModel, data);
 
             data.each(dimensions, function () {
                 var args = arguments;
